@@ -1,6 +1,6 @@
-# Sugarcane Leaf Disease Classification Benchmark
+ # Sugarcane Leaf Disease Detection
 
-Comparative benchmark of six deep learning architectures for sugarcane leaf disease classification on the Daphal & Koli (2022) field-collected dataset. Evaluates three transformer variants (Swin-T, ViT-B/16, DeiT-S), two convolutional networks (ResNet-50, EfficientNet-B3) and a 3D CNN baseline under a unified five-fold stratified cross-validation protocol.
+Comparative evaluation of six deep learning architectures for sugarcane leaf disease classification on the Daphal & Koli (2022) field-collected dataset. Evaluates three transformer variants (Swin-T, ViT-B/16, DeiT-S), two convolutional networks (ResNet-50, EfficientNet-B3) and a 3D CNN reference under a unified five-fold stratified cross-validation protocol.
 
 ## Dataset
 
@@ -22,8 +22,8 @@ data/
 Python 3.10 or higher and a CUDA-capable GPU are required. Tested on NVIDIA Tesla T4 with 15.6 GB VRAM.
 
 ```bash
-git clone https://github.com/iamRabia-N/sugarcane-disease-transformer-benchmark.git
-cd sugarcane-disease-transformer-benchmark
+git clone https://github.com/iamRabia-N/sugarcane-leaf-disease-detection.git
+cd sugarcane-leaf-disease-detection
 pip install -r requirements.txt
 ```
 
